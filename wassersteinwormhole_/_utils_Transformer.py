@@ -6,8 +6,8 @@ from flax import struct
 from flax.training import train_state  # type: ignore
 from jax import random
 
-from wassersteinwormhole._utils_WeightedAttention import WeightedMultiheadAttention
-from wassersteinwormhole.DefaultConfig import DefaultConfig
+from wassersteinwormhole_._utils_WeightedAttention import WeightedMultiheadAttention
+from wassersteinwormhole_.DefaultConfig import DefaultConfig
 
 
 class Embedding(nn.Module):

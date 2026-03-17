@@ -13,10 +13,10 @@ from tqdm import trange # type: ignore
 import ott.geometry.costs # Added import
 
 
-from wassersteinwormhole._utils_Processing import pad_pointclouds, get_max_dist_statistic, get_max_dist_statistic_riemannian
-from wassersteinwormhole._utils_Transformer import Transformer
-from wassersteinwormhole.DefaultConfig import DefaultConfig
-import wassersteinwormhole.utils_OT as utils_OT
+from wassersteinwormhole_._utils_Processing import pad_pointclouds, get_max_dist_statistic, get_max_dist_statistic_riemannian
+from wassersteinwormhole_._utils_Transformer import Transformer
+from wassersteinwormhole_.DefaultConfig import DefaultConfig
+import wassersteinwormhole_.utils_OT as utils_OT
 
 
 

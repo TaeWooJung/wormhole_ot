@@ -5,7 +5,7 @@ from flax import linen as nn
 from jax import random
 from jax.typing import ArrayLike
 
-from wassersteinwormhole.DefaultConfig import DefaultConfig
+from wassersteinwormhole_.DefaultConfig import DefaultConfig
 
 
 def scaled_dot_product(
