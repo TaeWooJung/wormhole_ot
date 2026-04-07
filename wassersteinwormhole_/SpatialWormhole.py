@@ -21,7 +21,7 @@ import ott.geometry.costs # Added import
 from wassersteinwormhole_._utils_Processing import get_max_dist_statistic, get_max_dist_statistic_riemannian
 from wassersteinwormhole_._utils_Transformer import Transformer
 from wassersteinwormhole_.DefaultConfig import SpatialDefaultConfig
-import wassersteinwormhole_.utils_OT as utils_OT
+import wassersteinwormhole_._utils_OT as utils_OT
 
 
 class SpatialWormhole:
@@ -108,7 +108,7 @@ class SpatialWormhole:
             self.adata_test = adata_test
             self.exp_data_test = self._get_exp_data(self.adata_test, self.config.rep_key)
             self.niche_indices_test = self._get_niche_indices(
-                self.adata_test, self.k_neighbours, self.config.spatial_key, self.config.batch_key, self.radius
+                self.adata_test, self.k_neighbours, self.config.spatial_key, self.config.batch_key
             )
             self.max_niche_size = max(self.max_niche_size, max(len(indices) for indices in self.niche_indices_test))
 
